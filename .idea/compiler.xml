@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-provide-payment8002" />
+        <module name="cloud-zookeeper90" />
+        <module name="cloud-hystrix8001" />
+        <module name="cloud-provide-payment8001" />
+        <module name="cloud-consul6001" />
+        <module name="cloud-enruka-server7002" />
+        <module name="cloud-enruka-server7001" />
+        <module name="cloud-gateway9527" />
+        <module name="cloud-enruka-server7003" />
+        <module name="cloud-openFeign80" />
+        <module name="cloud-hystrix80" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloud-zookeeper9002" />
+        <module name="cloud-commons" />
+        <module name="cloud-zookeeper9001" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
