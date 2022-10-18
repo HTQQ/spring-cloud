@@ -23,6 +23,9 @@
         <module>cloud-hystrix8001</module>
         <module>cloud-hystrix80</module>
         <module>cloud-gateway9527</module>
+        <module>cloud-stream-rabbitmq-provide8801</module>
+        <module>nacos-service8002</module>
+        <module>nacos-service8001</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -45,7 +48,7 @@
         <hutool-all.version>5.1.0</hutool-all.version>
     </properties>
 
-    <!--子模块继承后,提供作用:锁定版本+子module不用groupId和version-->
+    <!--子模块继承后,提供作用:锁定版本-->
     <dependencyManagement>
         <dependencies>
             <!--springboot 2.2.2-->

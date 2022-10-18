@@ -1,0 +1,19 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: service2
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 16b15b5c-7ee5-4c02-bb70-bf39501999c2
+        group: DEFAULT_GROUP
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 16b15b5c-7ee5-4c02-bb70-bf39501999c2
+        file-extension: yaml # 读取${spring.application.name}.yaml文件 即service1.yaml
+        group: DEFAULT_GROUP
+        prefix: ${spring.application.name}
+
